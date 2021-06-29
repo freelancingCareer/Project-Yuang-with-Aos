@@ -1,0 +1,1317 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body[data-aos-duration='850'] [data-aos],
+[data-aos][data-aos][data-aos-duration='850'] {
+  transition-duration: 850ms;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+.clear:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.container {
+	max-width: 1150px;
+	margin: auto;
+	padding: 0 25px;
+}
+
+/* start header area */
+
+header#header-area {
+    background: #cf2a2f;
+    padding: 2px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .6s;
+    z-index: 999;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(50 50 50 / 36%);
+}
+
+header.hide {
+	transform: translateY(-100%);
+}
+
+html, body { overflow-x: hidden; }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-area {
+    float: left;
+    width: 45px;
+	
+}
+
+.logo-area img {
+    max-width: 100%;
+	cursor: pointer;
+}
+
+.nav-area {
+    float: right;
+    padding: 20px;
+}
+
+.nav-area ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-area ul li {
+    float: left;
+    list-style: none;
+    
+}
+
+.nav-area ul li:not(:last-child) {
+	
+	margin-right: 30px;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+	transition: .3s;
+}
+
+.nav-area ul li:not(:last-child) a:hover {
+	color: gold;
+}
+
+li.navBye {
+    padding: 4px 20px;
+    background: gold;
+    border: 2px solid gold;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+li.navBye a {
+	color: #000 !important;
+}
+
+li.navBye :hover {
+	color: #cf2a2f !important;
+}
+
+	/* nav bar active */
+	
+.nav-area ul li.active {
+    
+	transition: .3s !important;
+	
+}
+
+.nav-area ul li.active a{
+	color: gold;
+}
+
+.nav-area ul li:hover a {
+	color: gold;
+	
+}
+
+
+/* nav icon menu bar */
+
+.manuIcon {
+	display: none;
+}
+
+/* end header area */
+
+
+/* start yuang token area */
+
+section#yuang-token-area {
+    
+	background-image: linear-gradient(to top,#a52954, #e02b20);
+	
+	
+}
+
+.yuangwrap {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 95px 0 30px;
+	
+}
+
+.logoAndSpan img {
+    transform: scale(.85);
+	transition: .4s;
+}
+
+.logoAndSpan img:hover {
+	transform: scale(1.11);
+}
+
+.logoAndSpan span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+
+.yuangbtn {
+    margin-top: 10px;
+}
+
+.yuangbtn1 {
+    background: gold;
+    max-width: 250px;
+    float: left;
+    padding: 15px 20px;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+	text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    word-spacing: 4px;
+	font-size: 14px;
+	transition: .8s;
+}
+
+.yuangbtn1:hover {
+	background: #000;
+	color: gold;
+	border: 1.5px solid gold;
+}
+
+.yuangbtn2 {
+    background: gold;
+    max-width: 250px;
+    float: right;
+    padding: 15px 20px;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+	text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    word-spacing: 4px;
+	font-size: 14px;
+	transition: .8s;
+}
+
+.yuangbtn2:hover {
+	background: #000;
+	color: gold;
+	border: 1.5px solid gold;
+}
+
+
+.ytsecond {
+    margin-top: 60px;
+}
+
+.ytsingle {
+    margin-bottom: 30px;
+}
+
+.ytsingle1 {
+    float: left;
+    width: 31.33%;
+    margin: 0 1%;
+    margin-bottom: 25px;
+}
+
+a.ylink1 {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 16px;
+    background: #000;
+    color: #fff;
+    border: 1.5px solid gold;
+    border-radius: 50px;
+    font-size: 14px;
+	transition: .8s;
+	font-weight: 500;
+}
+
+a.ylink1:hover {
+	background: gold;
+	border: 1.5px solid #000;
+	color: #000;
+}
+
+.ytsingle2 {
+    float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+
+a.ylink2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 16px;
+    background: #000;
+    color: #fff;
+    border: 1.5px solid gold;
+    border-radius: 50px;
+    font-size: 14px;
+	transition: .8s;
+	font-weight: 500;
+}
+
+a.ylink2:hover {
+	background: gold;
+	border: 1.5px solid #000;
+	color: #000;
+}
+
+/* end yuang token area */
+
+
+/* start big image section */
+
+section#big-image {
+    background: #e02b20;
+    padding: 0 0 70px;
+}
+section#big-image img {
+    width: 100%;
+    /* position: relative; */
+    top: -352px;
+}
+/* end big image section */
+
+
+/* start about area */
+
+section#about-area {
+    background: #e02b20;
+    padding: 70px 0;
+}
+
+.aboutwrap h2 {
+    text-align: center;
+    margin-bottom: 55px;
+    color: gold;
+    font-size: 37px;
+    letter-spacing: 1.5px;
+}
+
+.left-about {
+    float: left;
+    width: 45%;
+}
+
+.right-about {
+    float: right;
+    width: 45%;
+}
+
+.left-about h3 {
+    color: #fff;
+    margin-bottom: 45px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.left-about p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.right-about img {
+    max-width: 100%;
+	transform: translateY(0);
+	transition: .5s;
+}
+
+.right-about img:hover {
+	transform: translateY(-30px);
+}
+/* end about area */
+
+
+/* start current supply area */
+
+section#current-supply-area {
+    background: #e02b20;
+    padding: 70px 0;
+}
+
+.currentwrap {
+    max-width: 700px;
+    margin: auto;
+}
+
+.currentwrap h2 {
+    color: gold;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: 600;
+}
+
+.left-current {
+    float: left;
+    /* width: 50%; */
+}
+
+.right-current {
+    float: right;
+    /* width: 50%; */
+}
+
+.left-current span {
+    display: block;
+    color: #fff;
+    line-height: 27px;
+}
+
+.left-current strong {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.right-current span {
+    display: block;
+    color: #fff;
+    line-height: 27px;
+}
+
+.right-current strong {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.current-para {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.current-para p {
+    color: #f0f0f0;
+    line-height: 25px;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.cat-anim {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cat-anim img {
+    max-width: 333px;
+	transform: scale(.8);
+	transition: .5s;
+	opacity: .7;
+}
+
+.cat-anim img:hover {
+	transform: scale(1);
+	opacity: 1;
+}
+/* end current supply area */
+
+
+/* start audit document section */
+
+section#audit-area {
+    background: #e02b20;
+    padding: 70px 0;
+}
+
+.auditwrap h2 {
+    color: gold;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.auditwrap h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.aud-first {
+    width: 45%;
+    float: left;
+	text-align: center;
+	transition: .4s;
+	transform: translateY(0);
+	padding-bottom: 40px;
+}
+
+.aud-first:hover {
+	transform: translateY(-30px);
+}
+
+.aud-pdf1 img {
+    max-width: 55%;
+    margin-bottom: 25px;
+}
+
+
+.link-single {
+	margin-top: 30px;
+    background: gold;
+    max-width: 110px;
+    margin: auto;
+    padding: 3px 6px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14.5px;
+	display: block;
+	transition: .4s;
+}
+
+.link-single:hover {
+	background: #000;
+	border: 1.5px solid gold;
+	color: gold;
+}
+
+a.link-single i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.aud-second {
+    width: 45%;
+    float: right;
+	text-align: center;
+	transition: .4s;
+	transform: translateY(0);
+	padding-bottom: 40px;
+}
+
+.aud-second:hover {
+	transform: translateY(-30px);
+}
+
+.aud-pdf2 img {
+    max-width: 55%;
+	margin-bottom: 22px;
+}
+
+.link2-single {
+	margin-top: 30px;
+    background: gold;
+    max-width: 130px;
+    margin: auto;
+    padding: 3px 6px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 14.5px;
+	display: block;
+	transition: .4s;
+}
+
+.link2-single:hover {
+	background: #000;
+	border: 1.5px solid gold;
+	color: gold;
+}
+
+a.link2-single i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+/* end audit doucment section */
+
+
+
+/* start tokenomics area */
+
+section#tokenmics-area {
+    background: #e02b20;
+    padding: 40px 0 70px;
+}
+
+.token-wrap h2 {
+    color: gold;
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 65px;
+}
+
+.left-graph-text {
+    float: left;
+    max-width: 35%;
+    position: relative;
+    padding: 10px 30px;
+    margin-top: 130px;
+}
+
+.left-graph-text:before {
+	position: absolute;
+    content: "";
+    top: 0px;
+	left: 0;
+    height: 100%;
+    width: 45px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gold;
+    border-image: initial;
+    transition: all 0.4s ease 0s;
+	border-radius: 6px 0px 0px 6px;
+	border-right: none;
+	
+	
+}
+
+.left-graph-text:after {
+	position: absolute;
+    content: "";
+    top: 0px;
+	right: 0;
+    height: 100%;
+    width: 45px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gold;
+    border-image: initial;
+    transition: all 0.4s ease 0s;
+	border-radius: 0 6px 6px 0px;
+	border-left: none;
+	
+}
+
+.left-graph-text p {
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.left-graph-text span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 23px;
+    font-weight: 600;
+    color: gold;
+    letter-spacing: 1px;
+}
+
+.right-graph {
+    float: right;
+    max-width: 55%;
+    margin: auto;
+}
+
+.right-graph span {
+    color: black;
+    padding: 90px;
+    background: #000;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	border: 2px solid gold;
+	transition: .4s;
+	font-weight: 600;
+	font-size: 18px;
+	
+}
+
+.right-graph span:hover {
+	background: gold;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+	
+}
+
+.bottom-graph {
+    margin-top: 40px;
+}
+
+.single-bGraph {
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+	position: relative;
+}
+
+.single-sp:before {
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 5px;
+    content: "";
+    border-radius: 2px;
+    background: gold;
+	margin-right: 30px;
+}
+
+
+
+.single-bGraph span {
+    display: block;
+    font-size: 15px;
+    color: burlywood;
+    font-weight: 600;
+    margin-bottom: 5px;
+	margin-left: 30px;
+}
+
+.single-bGraph strong {
+    color: #fff;
+    font-size: 20px;
+	display: block;
+	margin-left: 30px;
+}
+
+/* end tokennomics area */
+
+
+/* start road map area */
+
+section#roadmap-area {
+    background: #e02b20;
+    padding: 70px 0;
+}
+
+.roadmap-wrap h2 {
+    text-align: center;
+    font-size: 37px;
+    color: gold;
+    margin-bottom: 65px;
+	
+}
+
+#stepProgressBar  {
+	display:  flex;
+	justify-content:  space-between;
+	/* align-items:  flex-start; */
+	max-width:  850px;
+	margin:  0  auto;
+	margin-bottom:  40px;
+}
+
+.step {
+    text-align: center;
+    width: 33.33%;
+}
+
+.step-text {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.bullet {
+	border: 1.5px solid #000;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	color: #000;
+	display: inline-block;
+	position: relative;
+	transition: background-color 500ms;
+	line-height:20px;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+
+.bullet.completed  {
+	color:  #000;
+	background-color:  gold;
+}
+
+
+
+.bullet.completed:after {
+    content: '';
+    position: absolute;
+    right: -252px;
+    bottom: 10px;
+    height: 2px;
+    width: 252px;
+    background-color: gold;
+}
+
+/* .b4q { */
+	/* margin-right: 15px; */
+/* } */
+
+/* Base styles and helper stuff */
+.hidden  {
+	display:  none;
+}
+ 
+button  {
+	padding:  5px  10px;
+	border:  1px  solid  black;
+	transition:  250ms background-color;
+}
+
+button:hover  {
+	cursor:  pointer;
+	background-color:  black;
+	color:  white;
+}
+
+button:disabled:hover  {
+	opacity:  0.6;
+	cursor:  not-allowed;
+}
+
+.text-center  {
+	text-align:  center;
+}
+
+.step-btm-questions h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.step-btm-questions p {
+    line-height: 25px;
+    color: #fff;
+}
+
+div#main {
+    text-align: center;
+}
+
+div#main p {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+
+/* end road map  area */
+
+section#eitherance-map-area {
+    background: #e02b20;
+    padding: 70px 0;
+}
+
+.roadmwrap h2 {
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 37px;
+    color: gold;
+}
+
+.aLeft-roadmap {
+    float: left;
+    width: 48%;
+    
+}
+
+.aLeft-roadmap img {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 120px;
+	transition: .5s;
+	transform: scale(1);
+}
+
+.aLeft-roadmap img:hover {
+	transform: scale(.85);
+}
+
+.aright-roadmap {
+    width: 48%;
+    float: right;
+}
+
+.single-first-rmap {
+    width: 100%;
+	margin-bottom: 10px;
+}
+
+.single-first-mini {
+    float: left;
+    width: 48%;
+    text-align: center;
+    background: gold;
+    padding: 60px 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 270px;
+	transform: rotate(0);
+	transition: .5s;
+}
+
+.single-first-mini:hover {
+	transform: rotate(5deg);
+}
+
+.single-first-mini span {
+    display: block;
+    color: #000;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.single-first-mini i {
+    font-size: 60px;
+    margin-bottom: 10px;
+	color: #e02b20;
+}
+
+.single-first-mini2 {
+    float: right;
+    width: 48%;
+    text-align: center;
+    background: gold;
+    padding: 60px 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 280px;
+	transform: rotate(0);
+	transition: .5s;
+}
+
+.single-first-mini2:hover {
+	transform: rotate(5deg);
+}
+
+.single-first-mini2 span {
+    display: block;
+    color: #000;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.single-first-mini2 i {
+    font-size: 60px;
+    margin-bottom: 10px;
+	color: #e02b20;
+}
+
+.single-middle-rmap {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.single-middle-mini {
+	text-align:center;
+    width: 48%;
+    text-align: center;
+    background: gold;
+    padding: 60px 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 270px;
+	transform: rotate(0);
+	transition: .5s;
+}
+
+.single-middle-mini:hover {
+	transform: rotate(5deg);
+}
+
+.single-middle-mini span {
+    display: block;
+    color: #000;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.single-middle-mini i {
+    font-size: 60px;
+    margin-bottom: 10px;
+	color: #e02b20;
+}
+
+.single-last-rmap {
+    width: 100%;
+	margin-bottom: 10px;
+}
+
+.single-last-mini {
+    float: left;
+    width: 48%;
+    text-align: center;
+    background: gold;
+    padding: 60px 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 270px;
+	transform: rotate(0);
+	transition: .5s;
+}
+
+.single-last-mini:hover {
+	transform: rotate(5deg);
+}
+
+.single-last-mini span {
+    display: block;
+    color: #000;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.single-last-mini i {
+    font-size: 60px;
+    margin-bottom: 10px;
+	color: #e02b20;
+}
+
+.single-last-mini2 {
+    float: right;
+    width: 48%;
+    text-align: center;
+    background: gold;
+    padding: 60px 25px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    min-height: 280px;
+	transform: rotate(0);
+	transition: .5s;
+}
+
+.single-last-mini2:hover {
+	transform: rotate(5deg);
+}
+
+.single-last-mini2 span {
+    display: block;
+    color: #000;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.single-last-mini2 i {
+    font-size: 60px;
+    margin-bottom: 10px;
+	color: #e02b20;
+}
+
+/* after road map or eitherence area */
+
+
+/* start white paper area */
+
+section#white-paper-area {
+    background: #e02b20;
+    padding: 20px 0;
+}
+
+.whitewrap h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+
+.left-paper {
+    width: 48%;
+    float: left;
+}
+
+.left-paper img {
+    max-width: 100%;
+	transition: .4s;
+	opacity: .5;
+	transform: translateY(0);
+}
+
+.left-paper img:hover {
+	opacity: 1;
+	transform: translateY(-30px);
+	
+}
+
+.right-paper {
+    width: 48%;
+    float: right;
+}
+
+.single-white-paper {
+    margin-bottom: 14px;
+    background: #cf2a2f;
+    padding: 14px 28px;
+    border: 2px solid gold;
+    border-radius: 8px;
+	transition: .4s;
+	transform: skew(0,0)
+	
+}
+
+.single-white-paper:hover {
+	transform: skew(6deg,3deg);
+	background: #000;
+}
+
+.single-white-paper img {
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+    /* width: 25%; */
+}
+
+.single-mix-white {
+    float: right;
+    width: 70%;
+}
+
+.single-mix-white strong {
+    display: block;
+    color: gold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.single-mix-white span {
+    color: #fff;
+    line-height: 21px;
+}
+/* end white paper area */
+
+
+/* start use case area */
+
+section#use-case-area {
+    background: #e02b20;
+    padding: 30px 0;
+}
+
+.uc-area {
+    margin-bottom: 45px;
+}
+
+.uc-area h2 {
+    color: gold;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.uc-area h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.rist-sec h3 {
+    color: khaki;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.rist-sec p {
+    background: #8080807a;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 16px;
+    word-spacing: 2px;
+    text-align: justify;
+    color: #f0f0f0;
+    border: 1.5px solid #fff;
+    border-radius: 8px;
+}
+
+.rist-sec strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: khaki;
+}
+
+.rist-sec span {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    color: khaki;
+    font-size: 17px;
+}
+/* end use casee area */
+
+
+/* start before footer area */
+
+section#before-footer {
+    background: #e02b20;
+    padding: 80px 0 30px; 
+}
+
+.be-footerwrap {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.tele-parent {
+    width: 48%;
+    float: left;
+}
+
+.tel-link {
+    display: inline;
+}
+
+.tel-link i {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 10px;
+    background: #00000082;
+    padding: 15px;
+    border-radius: 10px;
+	border: 1.5px solid gold;
+	transition: .4s;
+}
+
+.tel-link i:hover {
+	color: #0088cc;
+	background: gold;
+	border: 1.5px solid #000;
+}
+
+a.telegram span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.telegram:hover i {
+	color: #0088cc;
+	background: gold;
+	border: 1.5px solid #000;
+}
+
+
+.twit-parent {
+	width: 48%;
+    float: right;
+}
+
+.twi-link {
+    display: inline;
+}
+
+.twi-link i {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 10px;
+    background: #00000082;
+    padding: 15px;
+    border-radius: 10px;
+	border: 1.5px solid gold;
+	transition: .4s;
+}
+
+.twi-link i:hover {
+	color: #00acee;
+	background: gold;
+	border: 1.5px solid #000;
+}
+
+a.twit span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.twit:hover i {
+	color: #00acee;
+	background: gold;
+	border: 1.5px solid #000;
+}
+/* end before footer area */
+
+/* start footer area */
+
+footer#footer-area {
+    background: #cf2a2f;
+    text-align: center;
+    padding: 10px 0;
+    border-top: .02px solid gold;
+}
+
+.footwrap p {
+    color: #fff;
+    word-spacing: 3px;
+    font-size: 15px;
+}
+/* end footer area */
+
+/* start end bottom icon */
+
+.rightbottomcorner {
+    
+    display: inline-block;
+    position: fixed;
+    padding: 5px 7px;
+    background: #000;
+    right: 30px;
+    bottom: 40px;
+	border-radius:3px;
+	cursor: pointer;
+	font-size: 25px;
+	transition:.3s;
+}
+
+.rightbottomcorner:hover {
+	background:gold;
+	transition: .3s;
+}
+
+.rightbottomcorner:hover a{
+	color: #000 !important;
+}
+
+.rightbottomcorner a i {
+	color: #fff;
+}
+
+.rightbottomcorner:hover a i {
+	color: #000;
+} 
+
+.rightbottomcorner a {
+	color:#000;
+}
+/* end bottom icon */
+
+
+
+

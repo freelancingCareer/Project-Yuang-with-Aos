@@ -1,0 +1,540 @@
+
+@media all and (max-width: 950px) {
+	.single-mix-white {
+		width: 60%;
+	}
+}
+
+@media all and (max-width: 875px) {
+	
+	#stepProgressBar {
+		flex-direction: column;
+	}
+	
+	/* .bullet.completed:after { */
+		/* position: inherit; */
+	/* } */
+	
+	.step-text {
+		margin-top: 20px;
+		color: gold;
+		font-weight: 600;
+		font-size: 18px;
+	}
+	
+	.bullet {
+		margin-bottom: 1px;
+		display: block;
+	}
+	
+	.step-btm-questions h4 {
+		margin-bottom: 5px;
+	}
+	
+	.step-btm-questions p {
+		line-height: 20px;
+		font-size: 15px;
+	}
+	
+	.step-btm-questions {
+		margin-top: -30px;
+	}
+	
+	.bullet.completed:after {
+		position: absolute;
+		top: 27px;
+		height: 147px;
+		width: 2px;
+		right: 13px;
+	}
+	
+	.step {
+		text-align: center;
+		width: inherit;
+	}
+}
+
+@media all and (max-width: 768px) {
+	
+	header#header-area {
+		padding: 0 30px;
+	}
+	
+	.container {
+		padding: 0 12px;
+	}
+	
+	.logo-area img {
+		max-width: 75%;
+    
+	}
+	
+	.nav-area {
+		position: fixed;
+		top: 0;
+		left: -330px;
+		display: block;
+		width: 320px;
+		background: #000;
+		min-height: 100vh;
+		transition: .6s;
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+	
+	.nav-area {
+		float: left;
+	}
+	
+	.nav-area ul li {
+		float:none;
+		margin-bottom: 10px;
+	}
+	
+	.nav-area ul li a {
+		font-size: 14.5px;
+	}
+	
+	li.navBye {
+		max-width: 30%;
+		padding: 2px 12px;
+	}
+	
+	header.hide {
+		transform: translateY(0);
+	}
+	
+	.show-nav-area {
+		left: 0;
+	}
+	
+	.manuIcon {
+		display: block;
+		font-size: 26px;
+		cursor: pointer;
+		float: right;
+		margin-top: 12px;
+	}
+	
+	/* tokenomics */
+	
+	section#tokenmics-area {
+		padding: 35px 0;
+	}
+	
+	.left-graph-text {
+		float: none;
+		max-width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	
+	.right-graph {
+		float: none;
+		
+	}
+	
+	/* roaddmap */
+	
+	section#roadmap-area {
+		padding: 35px 0;
+	}
+	
+	.roadmap-wrap h2  {
+		margin-bottom: 10px;
+	}
+	
+	/* eitescan */
+	
+	section#eitherance-map-area {
+		padding: 35px 0;
+	}
+	
+	.aLeft-roadmap {
+		float: none;
+		max-width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.aLeft-roadmap img {
+		margin-top: 30px;
+	}
+	
+	.aright-roadmap {
+		width: 100%;
+		float: none;
+	}
+	
+	.single-first-rmap  {
+		margin-top: 25px;
+	}
+	
+	.single-first-mini {
+		min-height: 0;
+		padding: 30px 15px;
+	}
+	
+	.single-first-mini2 {
+		min-height: 0;
+		padding: 30px 15px;
+	}
+	
+	.single-middle-mini {
+		min-height: 0;
+		padding: 30px 15px;
+	}
+	
+	.single-last-mini {
+		min-height: 0;
+		padding: 30px 15px;
+	}
+	
+	.single-last-mini2 {
+		min-height: 0;
+		padding: 30px 15px;
+	}
+	
+	/* shite paper */
+	
+	.whitewrap h2 {
+		margin-bottom: 25px;
+	}
+	
+	.left-paper {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+	.right-paper {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media all and (max-width: 595px) {
+	
+	section#about-area {
+		padding: 35px 0;
+	}
+	
+	.aboutwrap h2 {
+		margin-bottom: 30px;
+	}
+	
+	section#big-image {
+		padding-bottom: 30px;
+	}
+	
+	.left-about {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.right-about {
+		float: none;
+		width: 100%;
+		margin-top: 45px;
+	}
+	
+	/* current supply */
+	
+	section#current-supply-area {
+		padding: 35px 0;
+	}
+	
+	.currentwrap h2 {
+		margin-bottom: 25px;
+		font-size: 30px;
+	}
+	
+	.left-current {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.right-current {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	.current-para {
+		padding-top: 20px;
+	}
+	
+	/* audit area */
+	
+	section#audit-area {
+		padding: 35px 0;
+	}
+	
+	.auditwrap h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.auditwrap h3 {
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+	
+	.aud-first {
+		width: 100%;
+		float: none;
+	}
+	
+	.aud-second {
+		width: 100%;
+		float: none;
+	}
+	
+	.right-graph {
+		max-width: 73%;
+	}
+}
+
+
+@media all and (max-width: 500px) {
+	
+	.logo-area img {
+		max-width: 60%;
+		
+	}
+	
+	.manuIcon {
+		font-size: 22px;
+	}
+	
+	.nav-area ul li a {
+		font-size: 14px;
+	}
+	
+	li.navBye {
+		max-width: 28%;
+		padding: 2px 10px;
+		margin-top: 6px;
+	}
+	
+	.yuangbtn1 {
+		font-size: 13px;
+		padding: 10px 16px;
+	}
+	
+	.yuangbtn2 {
+		font-size: 13px;
+		padding: 10px 16px;
+	}
+	
+	.ytsecond {
+		margin-top: 30px;
+	}
+	
+	a.ylink1 {
+		font-size: 12px;
+		padding: 8px 14px;
+	}
+	
+	a.ylink2 {
+		font-size: 12px;
+		padding: 8px 14px;
+	}
+	
+	.ytsingle {
+		margin-bottom: 20px;
+	}
+	
+	/* about area */
+	
+	.aboutwrap h2 {
+		font-size: 25px;
+		margin-bottom:20px;
+	}
+	
+	.left-about h3 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.left-about p {
+		font-size: 17px;
+	}
+	
+	.currentwrap h2 {
+		font-size: 25px;
+		margin-bottom: 21px;
+	}
+	
+	/* current supply */
+	
+	.left-current {
+		font-size: 16px;
+	}
+	
+	.left-current strong {
+		font-size: 16px;
+	}
+	
+	.right-current {
+		font-size: 16px;
+	}
+	
+	.right-current strong {
+		font-size: 16px;
+	}
+	
+	.current-para p {
+		font-size: 16px;
+	}
+	
+	/* audit */
+	
+	.auditwrap h2 {
+		font-size: 25px;
+		
+	}
+	
+	.auditwrap h3 {
+		font-size: 18px;
+	}
+	
+	.token-wrap h2 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	
+	.right-graph span {
+		width: 270px;
+		height: 270px;
+	}
+	
+	.left-graph-text span {
+		font-size: 20px;
+	}
+	
+	.single-bGraph {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 18px;
+	}
+	
+	/* road map */
+	
+	.roadmap-wrap h2 {
+		font-size: 25px;
+	}
+	
+	.roadmwrap h2 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	
+	/* white paper */
+	
+	.whitewrap h2 {
+		font-size: 25px;
+	}
+	
+	.single-mix-white strong {
+		font-size: 20px;
+	}
+	
+	.single-mix-white span {
+		font-size: 16px;
+	}
+	
+	/* use case */
+	
+	.uc-area h2 {
+		font-size: 25px;
+	}
+	
+	.uc-area h5 {
+		font-size: 18px;
+	}
+	
+	.single-white-paper img {
+		padding-right: 11px;
+	}
+	
+	.nav-area {
+		width: 300px;
+	}
+}
+
+@media all and (max-width: 370px) {
+	
+	.yuangwrap {
+		padding: 78px 22px;
+	}
+	
+	.yuangbtn1 {
+		font-size: 11px !important;
+		padding: 7px 10px !important;
+	}
+	
+	.yuangbtn2 {
+		font-size: 11px !important;
+		padding: 7px 10px !important;
+	}
+	
+	a.ylink1 {
+		font-size: 10px;
+		padding: 7px 10px;
+	}
+	
+	a.ylink2 {
+		font-size: 10px;
+		padding: 7px 10px;
+	}
+	
+	.ytsecond {
+		margin-bottom: 12px;
+	}
+	
+	.ytsingle {
+		margin-bottom: 10px;
+	}
+	
+	.right-graph span {
+		width: 240px;
+		height: 240px;
+	}
+	
+	.logoAndSpan img {
+		width: 30%;
+	}
+	
+	.nav-area {
+		width: 260px;
+	}
+	
+	
+	.step-btm-questions p {
+		text-align: start;
+		margin-left: 32px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
